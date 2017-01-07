@@ -1,0 +1,149 @@
+/*General Settings*/
+body { 
+    padding-top: 50px; 
+}
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: #23222B;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+}
+hr {
+    border-color: #C9B49E;
+    border-style: solid none;
+    border-width: 2px;
+}
+.container {
+  width: 100%;  
+}
+#appStore {
+    max-width: 150px;
+}
+/*Navigation*/
+.navbar {
+    background-color: #fdfdfd;
+    box-shadow: 0 8px 6px -6px #999;
+    border: none;
+}
+.navbar-header { 
+    width:100%;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar-brand {
+    margin: none;
+    padding: 0px;
+}
+.navbar-brand img {
+    max-height: 50px;
+}
+.navbar-btn {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 0px;
+    background-color: #C9B49E;
+    color: #fefefe;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.navbar-btn:hover {
+    background-color: #23222B;
+    color: #fefefe;
+}
+.navbar-link {
+    padding-right: 30px;
+}
+
+/*Panel 1*/
+.jumbotron {
+    margin-bottom: 0px;
+    height: 100vh;
+    background-image: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelOneJumbotron.png") ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    color: #23222B;
+}
+.jumbotron #panelOneText {
+    margin-top: 25vh;
+}
+#screenshots {
+    animation: fadeInDown 2.5s;
+}
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-50px);}
+    to   { opacity: 1; transform: translateY(0px);}
+}
+
+/*Panel 2*/
+#panelTwo {
+    background-color: #23222B;
+    padding: 5%;
+    margin-top: 0px;
+}
+#panelTwo h2 {
+    color:#fefefe;
+}
+
+/*Panel 3*/
+#panelThree {
+    background-image: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelTwoBackground.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-top: 20%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    margin-top: 0px; 
+}
+
+/*Panel 4*/
+#panelFour {
+    background-image: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelFourBackground.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-top: 20%;
+    padding-right: 5%;
+    padding-bottom: 20%;
+    padding-left: 5%;
+    margin-top: 0px; 
+}
+#panelFour h2 {
+    color: #fefefe;
+}
+#panelFour p {
+    color: #fefefe;
+}
+
+/*Panel 5*/
+#panelFive {
+    background: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelFiveBackground.png") no-repeat center center fixed;
+    padding-top: 15%;
+    padding-right: 5%;
+    padding-bottom: 15%;
+    padding-left: 5%;
+    margin-top: 0px; 
+    margin-bottom: 0px; 
+}
+
+/*Footer*/
+footer {
+    background-color: #23222B;
+    padding-top: 10px;
+    color: #fefefe;
+}
+footer a {
+    color: #C9B49E;
+}
+footer a:hover {
+    color: #C9B49E;
+}
