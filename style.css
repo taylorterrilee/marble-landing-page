@@ -67,7 +67,7 @@ hr {
 .jumbotron {
     margin-bottom: 0px;
     height: 100vh;
-    background-image: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelOneJumbotron.png") ;
+    background-image: url("marble-landing-page/files/panelOneJumbotron.png") ;
     background-repeat: no-repeat;
     background-position: center center;
     border: none;
@@ -96,7 +96,7 @@ hr {
 
 /*Panel 3*/
 #panelThree {
-    background-image: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelTwoBackground.png");
+    background-image: url("marble-landing-page/files/panelTwoBackground.png");
     background-repeat: no-repeat;
     background-position: right center;
     padding-top: 20%;
@@ -108,7 +108,7 @@ hr {
 
 /*Panel 4*/
 #panelFour {
-    background-image: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelFourBackground.png");
+    background-image: url("marble-landing-page/files/panelFourBackground.png");
     background-repeat: no-repeat;
     background-position: left center;
     padding-top: 20%;
@@ -126,7 +126,7 @@ hr {
 
 /*Panel 5*/
 #panelFive {
-    background: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelFiveBackground.png") no-repeat center center fixed;
+    background: url("marble-landing-page/files/panelFiveBackground.png") no-repeat center center fixed;
     padding-top: 15%;
     padding-right: 5%;
     padding-bottom: 15%;
