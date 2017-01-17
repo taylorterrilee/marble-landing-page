@@ -193,7 +193,8 @@ footer a:hover {
     }
     /*Panel 5*/
     #panelfive {
-        background: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelFiveBackground.png") no-repeat center center fixed;
+        background-repeat: no-repeat;
+        background-position: center center;
         text-align: center;
         background-size: cover;
     }
