@@ -147,3 +147,57 @@ footer a {
 footer a:hover {
     color: #C9B49E;
 }
+/*Mobile Screens*/
+@media only screen and (max-width : 768px) {
+    /*Panel 1*/
+    .jumbotron {
+        height: auto;
+        background-position: right center;
+        background-size: cover;
+    }
+    .jumbotron #panelOneText {
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+        text-align: center;
+        overflow: scroll;
+        animation: fadeInDown 2.5s;
+    }
+    @keyframes fadeInDown {
+        from { opacity: 0; transform: translateY(-50px);}
+        to   { opacity: 1; transform: translateY(0px);}
+    }
+    #screenshots {
+        display: none;
+    }
+   
+    /*Panel 2*/
+    #panelTwo {
+        background-color: #23222B;
+        text-align: center;
+    }
+    
+    /*Panel 3*/
+    #panelThree {
+        background-position: right 40% top;
+        text-align: center;
+    }
+    
+    /*Panel 4*/
+    #panelfour {
+        background-position: left 40% bottom;
+        text-align: center;
+    }
+    /*Panel 5*/
+    #panelfive {
+        background: url("/Users/TerriLeeTaylor/Desktop/Your Portfolio - Nov 2016/Marble Landing Page/Files/panelFiveBackground.png") no-repeat center center fixed;
+        text-align: center;
+        background-size: cover;
+    }
+    /*Footer*/
+    footer p {
+        font-size: .75em;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    }
+
