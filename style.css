@@ -193,8 +193,7 @@ footer a:hover {
     }
     /*Panel 5*/
     #panelfive {
-        background-repeat: no-repeat;
-        background-position: center center;
+        background-attachment: scroll;
         text-align: center;
         background-size: cover;
     }
