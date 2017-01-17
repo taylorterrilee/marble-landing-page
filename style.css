@@ -149,6 +149,10 @@ footer a:hover {
 }
 /*Mobile Screens*/
 @media screen and (max-width : 768px) {
+    /*Navigation*/
+    .navbar-btn {
+        display: none;
+    }
     /*Panel 1*/
     .jumbotron {
         height: auto;
