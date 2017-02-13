@@ -141,6 +141,9 @@ footer {
     padding-top: 10px;
     color: #fefefe;
 }
+footer p {
+    font-size: .8em;
+}
 footer a {
     color: #C9B49E;
 }
@@ -199,7 +202,6 @@ footer a:hover {
     }
     /*Footer*/
     footer p {
-        font-size: .75em;
         margin-top: 10px;
         margin-bottom: 20px;
     }
